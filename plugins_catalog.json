@@ -1,0 +1,27 @@
+{"plugins":
+      [
+        {"name": "plugin_fuzzy_thefuzz",
+         "plugin_file_check": "plugin_fuzzy_thefuzz.py",
+         "url": "https://github.com/janvarev/irene_plugin_fuzzy_thefuzz",
+         "description": "Fuzzy command recognition via thefuzz (fuzzy string comparison)",
+         "added": "2023-06-10"},
+
+        {"name": "plugin_fuzzy_ai_sentence",
+         "plugin_file_check": "plugin_fuzzy_ai_sentence.py",
+         "url": "https://github.com/janvarev/irene_plugin_fuzzy_ai_sentence",
+         "description": "Fuzzy command recognition via ai sentence (semantic similarity)",
+         "added": "2023-06-10"},
+
+        {"name": "plugin_boltalka_openai",
+         "plugin_file_check": "plugin_boltalka_openai.py",
+         "url": "https://github.com/janvarev/irene_plugin_boltalka_openai",
+         "description": "Chatting with OpenAI",
+         "added": "2023-05-10"},
+
+        {"name": "plugin_boltalka2_openai",
+         "plugin_file_check": "plugin_boltalka2_openai.py",
+         "url": "https://github.com/janvarev/irene_plugin_boltalka2_openai",
+         "description": "Chat with OpenAI v2 (chat and gpt-3.5-turbo support)",
+         "added": "2023-05-10"}
+        ]
+}
