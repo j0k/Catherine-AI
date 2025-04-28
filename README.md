@@ -38,7 +38,7 @@ Catherine-AI can communicate with other business management systems such as CRM 
   - Microphones/speakers: 6-microphone array + stereo speakers with adjustable volume.
   - Ports: USB-C (charging), Ethernet (for a stable connection to a local network), HDMI (connection to a monitor).
   - Indicators: LED strip (blue — work, red — microphone off).
-
+  - Different cases, indicator and hardware configurations depends on the assistant tasks and can be specified
   - (Featured) Screen: 5″ touch display (for data visualization, but not required for voice control).
 
 ## Latest code updates
@@ -47,6 +47,7 @@ Catherine-AI can communicate with other business management systems such as CRM 
 - Now available as a Docker image!
 - Jaa.py (Jaa Plugin Framework) updated to version 1.7.1.
 - `runva_webapi.py` - Settings are now stored in `runva_webapi.json` and loaded using the new jaa.py.
+- `voice_client.py` - Remote client on Raspberry Pi which communicate with `runva_webapi.py` and `vosk_asr_server.py`.
 - jaapy 2.2.0 - Correct handling of dict and list parameters in plugin options when editing them in the options manager.
 - Alpha version of the plugin installer `runva_plugin_installer.py`.
 - Fixed the cmdline option - now it takes context into account.
@@ -59,5 +60,5 @@ Catherine-AI can communicate with other business management systems such as CRM 
 ## Acknowledgments
 
 - Catherine-AI Team
-- Best regards to [Irina](https://github.com/janvarev/Irene-Voice) and [EnjiRouz](https://github.com/EnjiRouz)
-- [Katusha](https://github.com/j0k/Katusha)
+- Best regards to [Irene](https://github.com/janvarev/Irene-Voice) and [EnjiRouz](https://github.com/EnjiRouz)
+- [Katusha project](https://github.com/j0k/Katusha)
